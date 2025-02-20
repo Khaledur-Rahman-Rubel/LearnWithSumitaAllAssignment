@@ -15,10 +15,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-10 w-full">
-                <a
-                  href="javascript:void(0)"
-                  className="mb-6 inline-block  max-h-[100px]"
-                >
+                <a href="#" className="mb-6 inline-block  max-h-[100px]">
                   <img src={footerLogo} alt="logo" className="max-w-full" />
                 </a>
                 <p className="mb-8 lg:max-w-[270px] text-base text-gray-7">
@@ -26,28 +23,16 @@ const Footer = () => {
                   using technology.
                 </p>
                 <div className="-mx-3 flex items-center">
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-gray-7 hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-gray-7 hover:text-white">
                     <Footer1 />
                   </a>
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-gray-7 hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-gray-7 hover:text-white">
                     <Footer2 />
                   </a>
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-gray-7 hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-gray-7 hover:text-white">
                     <Footer3 />
                   </a>
-                  <a
-                    href="javascript:void(0)"
-                    className="px-3 text-gray-7 hover:text-white"
-                  >
+                  <a href="#" className="px-3 text-gray-7 hover:text-white">
                     <Footer4 />
                   </a>
                 </div>
@@ -61,7 +46,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Home
@@ -69,7 +54,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Features
@@ -77,7 +62,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       About
@@ -94,7 +79,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       How it works
@@ -102,7 +87,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Privacy policy
@@ -110,7 +95,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Terms of Service
@@ -118,7 +103,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Refund policy
@@ -138,7 +123,7 @@ const Footer = () => {
                     href="blog-details.html"
                     className="group flex items-center gap-[22px]"
                   >
-                    <div className="overflow-hidden rounded">
+                    <div className="overflow-hidden rounded-sm">
                       <img src={footer1} alt="blog" />
                     </div>
                     <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
@@ -149,7 +134,7 @@ const Footer = () => {
                     href="blog-details.html"
                     className="group flex items-center gap-[22px]"
                   >
-                    <div className="overflow-hidden rounded">
+                    <div className="overflow-hidden rounded-sm">
                       <img src={footer2} alt="blog" />
                     </div>
                     <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">

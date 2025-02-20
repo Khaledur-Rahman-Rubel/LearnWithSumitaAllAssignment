@@ -58,10 +58,10 @@ const Fqa = () => {
           </div>
         </div>
         <div>
-          <span className="absolute left-4 top-4 -z-[1]">
+          <span className="absolute left-4 top-4 -z-1">
             <FqaSvg2 />
           </span>
-          <span className="absolute bottom-4 right-4 -z-[1]">
+          <span className="absolute bottom-4 right-4 -z-1">
             <FqaSvg2 />
           </span>
         </div>

@@ -28,22 +28,13 @@ const TeamPerson = ({ image, name, founder }) => {
               {founder}
             </p>
             <div className="flex items-center justify-center gap-5">
-              <a
-                href="javascript:void(0)"
-                className="text-dark-6 hover:text-primary"
-              >
+              <a href="#" className="text-dark-6 hover:text-primary">
                 <TeamSvg2 />
               </a>
-              <a
-                href="javascript:void(0)"
-                className="text-dark-6 hover:text-primary"
-              >
+              <a href="#" className="text-dark-6 hover:text-primary">
                 <TeamSvg3 />
               </a>
-              <a
-                href="javascript:void(0)"
-                className="text-dark-6 hover:text-primary"
-              >
+              <a href="#" className="text-dark-6 hover:text-primary">
                 <TeamSvg4 />
               </a>
             </div>
