@@ -51,7 +51,7 @@ const AddEditPage = () => {
                 value={task.title}
                 onChange={handleChange}
                 required
-                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white placeholder-gray-400 shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white placeholder-gray-400 shadow-xs focus:border-green-500 focus:outline-hidden focus:ring-2 focus:ring-green-500"
               />
             </div>
             <div className="mb-4">
@@ -68,7 +68,7 @@ const AddEditPage = () => {
                 onChange={handleChange}
                 rows="3"
                 required
-                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white placeholder-gray-400 shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white placeholder-gray-400 shadow-xs focus:border-green-500 focus:outline-hidden focus:ring-2 focus:ring-green-500"
               ></textarea>
             </div>
             <div className="mb-4">
@@ -85,7 +85,7 @@ const AddEditPage = () => {
                 value={task.date}
                 onChange={handleChange}
                 required
-                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white shadow-xs focus:border-green-500 focus:outline-hidden focus:ring-2 focus:ring-green-500"
               />
             </div>
 
@@ -101,7 +101,7 @@ const AddEditPage = () => {
                 name="category"
                 value={task.category}
                 onChange={handleChange}
-                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="w-full rounded-md border border-gray-600 bg-gray-700 px-3 py-2 text-white shadow-xs focus:border-green-500 focus:outline-hidden focus:ring-2 focus:ring-green-500"
               >
                 <option>Category</option>
                 <option value="Todo">To-Do</option>
@@ -115,13 +115,13 @@ const AddEditPage = () => {
               <button
                 onClick={() => dispatch({ type: "CLOSE_ADD_EDIT_PAGE" })}
                 type="button"
-                className="rounded-md border border-gray-600 px-4 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-gray-800"
+                className="rounded-md border border-gray-600 px-4 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 focus:outline-hidden focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-gray-800"
               >
                 Cancel
               </button>
               <button
                 type="submit"
-                className="rounded-md border border-transparent bg-green-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-gray-800"
+                className="rounded-md border border-transparent bg-green-600 px-4 py-2 text-sm font-medium text-white shadow-xs hover:bg-green-700 focus:outline-hidden focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-gray-800"
               >
                 Save
               </button>

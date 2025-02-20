@@ -15,7 +15,7 @@ const Header = () => {
             dispatch({ type: "SEARCH_TASK", taskTitle: e.target.value })
           }
           placeholder="Search here"
-          className="w-full max-w-xl rounded-full bg-gray-700 px-4 py-2 text-white focus:outline-none"
+          className="w-full max-w-xl rounded-full bg-gray-700 px-4 py-2 text-white focus:outline-hidden"
         />
       </div>
       <div className="flex items-center">
